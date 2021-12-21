@@ -7,8 +7,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-
-
 # (executable_path="c:\selenium webdrivers\chromedriver.exe")
 
 driver = webdriver.Chrome()
@@ -124,7 +122,6 @@ courtesycar.select_by_index(1)
 nextSelection =driver.find_element_by_id('nextselectpriceoption')
 nextSelection.click()
 
-
 selectoption = driver.find_element_by_id('selectgold')
 driver.execute_script('arguments[0].click();',selectoption)
 
@@ -133,12 +130,10 @@ nextButton.click()
 
 driver.execute_script()
 
-
 #gender.is_selected()
 #
 #print(driver.title)
 #assert "Tricentis Vehicle Insurance" in driver.title
-
 #target = driver.find_element_by_id('get_camper')
 #target=driver.find_element_by_xpath('//*[@id="get_camper"]')
 #driver.execute_script('arguments[0].scrollIntoView(true);', target)
@@ -146,14 +141,9 @@ driver.execute_script()
 #target.click()
 
 
-
-
-
 #actions = ActionChains(driver)
 #target = driver.find_element_by_id('get_camper')
 #actions.perform()
 #target.click()
-
-
 
 driver.close()
