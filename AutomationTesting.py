@@ -124,7 +124,7 @@ for eachColumn in priceTableRow:
 
 driver.close()
 
-#Webhook payload url
+#Webhook payload url changed
 
 #Commiting with latest webhook
 
